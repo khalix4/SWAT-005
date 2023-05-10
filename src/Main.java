@@ -13,7 +13,7 @@ public class Main {
             float mass = input.nextFloat();
             float height = input.nextFloat();
 
-            System.out.println(energy.workDone(mass, height));
+            System.out.println(PotentialEnergy(mass, height));
         } catch (InputMismatchException ime) {
             System.out.println("Enter a valid number");
         } catch (Exception e) {
