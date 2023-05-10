@@ -16,7 +16,10 @@
        float force (float mass, float acceleration) { return mass * acceleration;
        }
         float Distance(float speed, float time) {return speed * time;
-                                                }
+            
+        float speed(float distance, float time) {return distance / time;                                         
+                                                 
+       }
         
            
 
