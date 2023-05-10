@@ -20,7 +20,7 @@
         float speed(float distance, float time) {return distance / time;                                         
                                                  
        }
-        
+        float pressure(float force, float area) {return force/area;}
            
 
     }
