@@ -75,7 +75,22 @@ public class Main {
 
 
 }
-
+     public static void main (string[] args) {
+         Energy energy = new Energy();
+         
+         
+         scanner input = new scanner(System.in);
+         try{
+             float force = input.nextfloat();
+             float area = input.nextfloat();
+             
+             system.out.printIn(pressure(force, area));
+         } catch (InputMismatchException ime) {
+             system.out.printIn("Enter a valid number");
+         } catch (Excepton e) {
+             system.out,printIn("something went wrong");
+         }
+     }
 
 
 
