@@ -35,6 +35,26 @@ public class Main {
         }
         
     }
+        public static void main(String[] args) {
+        Energy energy = new Energy();
+       
+
+        Scanner input = new Scanner(System.in);
+        try {
+            float distance = input.nextFloat();
+            float time = input.nextFloat();
+
+            System.out.println(speed(distance, time));
+        } catch (InputMismatchException ime) {
+            System.out.println("Enter a valid number");
+        } catch (Exception e) {
+            System.out.println("Something went wrong");
+        }
+    }
+
+
+
+}
      public static void main(String[] args) {
         Energy energy = new Energy();
        
