@@ -18,5 +18,8 @@ public class Physic {
     public float divide(int num1,int num2){
         return num1/num2;
     }
+       float  pressure(float force, float area){
+        return divide(force, area);
+    }
 
 }
