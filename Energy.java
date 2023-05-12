@@ -15,6 +15,7 @@ public class Energy extends Physic {
     }
      float young modulus(float stress, float strain){
         return divide(stress, strain);
+         
     }
 
     //float areaofsquare(float length, float breadth){
