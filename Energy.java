@@ -13,6 +13,9 @@ public class Energy extends Physic {
        float  pressure(float force, float area){
         return divide(force, area);
     }
+     float young modulus(float stress, float strain){
+        return divide(stress, strain);
+    }
 
     //float areaofsquare(float length, float breadth){
         //return multiply(length, breadth);
