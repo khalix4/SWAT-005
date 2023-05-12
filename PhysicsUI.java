@@ -9,6 +9,7 @@ public  class PhysicsUI {
     JFrame frame = new JFrame("Window");
 
     JButton speed = new JButton("SPEED");
+    JButton ForceBtn = new JButton("Force");
     //JButton potentialEnergy = new JButton("POTENTIAL ENERGY");
 
     //add more button
@@ -20,6 +21,7 @@ public  class PhysicsUI {
     JButton calculate = new JButton("calculate");
 
     public void mainUI() {
+        frame.add(speed);
         frame.add(speed);
         frame.setSize(200, 200);
         frame.setLayout(new GridLayout(5, 1));
