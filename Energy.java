@@ -7,7 +7,7 @@ public class Energy extends Physic {
     float speed(float distance, float time){
         return multiply(distance, time);
     }
-    float force(float m, float a){
+    float Force(float m, float a){
         return multiply(m, a);
     }
 
