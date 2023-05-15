@@ -1,5 +1,7 @@
 package UI;
 
+import UI.file.FileWriterMain;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -63,6 +65,8 @@ public  class PhysicsUI {
 
             float speed = geo.speed(Float.parseFloat(distance.getText()), Float.parseFloat(time.getText()));
             JOptionPane.showMessageDialog(null, speed);
+            FileWriterMain Jerry = new FileWriterMain();
+            Jerry.writeData("area of square" + distance.getText() + speed);
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, "error");
         }
