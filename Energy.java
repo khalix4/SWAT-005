@@ -7,19 +7,19 @@ public class Energy extends Physic {
     float speed(float distance, float time){
         return multiply(distance, time);
     }
-    float Force(float m, float a){
-        return multiply(m, a);
+    float Force(float mass, float acceleration){
+        return multiply(mass, acceleration);
     }
        float  pressure(float force, float area){
         return divide(force, area);
     }
-     float young modulus(float stress, float strain){
-        return divide(stress, strain);
+     float mass(float force, float acceleration){
+        return divide(force, acceleration);
          
     }
 
-    //float areaofsquare(float length, float breadth){
-        //return multiply(length, breadth);
-    }
+    
+    
+}
 
 
